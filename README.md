@@ -5,7 +5,7 @@ __USAGE__
 
 Follow the TASTE docker installation instructions found here: https://taste.tools/
 
-use ```sudo docker images``` to check if the image named ```taste:latest``` was correctly installed. Subsequently, clone this repo into an own folder and use ```sudo docker build -t esrocos to create an esrocos image. 
+use ```sudo docker images``` to check if the image named ```taste:latest``` was correctly installed. Subsequently, clone this repo into an own folder and use ```sudo docker build -t esrocos .``` to create an esrocos image. 
 
 Run the image using the ```sudo ./run.sh esrocos:latest``` command script which will open a docker container with the taste image and esrocos install script. Within the container run the ```./install_esrocos``` script and follow the ESROCOS installation instructions.
 
